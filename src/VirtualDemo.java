@@ -2,10 +2,13 @@
 
 public class VirtualDemo {
     public static void main(String[] args) {
+        
+        
+        //membuat object kelas gaji
         Gaji s = new Gaji("wahyu","KUBAR",3,5000.00);
 
         
-        //POLIMORPHISME
+        //POLIMORPHISME (membuat objek kelas pegawai (berbentuk kelas gaji)
         Pegawai e = new Gaji("ini nama","samarinda",2,2500.00);
 
 
